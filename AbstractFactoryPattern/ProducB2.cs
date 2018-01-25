@@ -1,10 +1,15 @@
 ﻿using System;
 namespace AbstractFactoryPattern
 {
-    public class EmptyClass
+    public class ProductB2 : AbstractProductB
     {
-        public EmptyClass()
+        public ProductB2()
         {
+        }
+
+        public override void Execute()
+        {
+            Console.WriteLine("Execute ProductB2");
         }
     }
 }

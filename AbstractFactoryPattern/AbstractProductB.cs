@@ -1,10 +1,12 @@
 ﻿using System;
 namespace AbstractFactoryPattern
 {
-    public class AbstractProductB
+    public abstract class AbstractProductB
     {
         public AbstractProductB()
         {
         }
+
+        public abstract void Execute();
     }
 }
